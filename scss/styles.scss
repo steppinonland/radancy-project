@@ -1,0 +1,154 @@
+$maingreen: #419460;
+$olivegreen: #749B29;
+$orange: #E97437;
+$box-bg: #EBF7F5;
+
+body {
+    margin: 0;
+}
+.main-green-text {
+    color: $maingreen;
+}
+
+.olive-green-text {
+    color: $olivegreen;
+}
+
+// main
+
+.main {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arial';
+}
+
+// heading, logo, hero image
+.heading {
+    display: flex;
+    flex-direction: column;
+}
+.logo-box {
+    padding: 1rem;
+}
+
+.hero-image {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.fill-hero {
+    width: 100%;
+}
+// top section
+.top-section, .advantage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header {
+    font-weight: 300;
+    font-size: 22px;
+}
+.header-underline {
+    width: 4%;
+    border-color: $maingreen;
+    border-style: solid;
+}
+.main-subtitle {
+    line-height: 28px;
+    color: #888;
+    text-align: left;
+    padding: 0rem 3rem;
+}
+.careers-button {
+    background-color: $orange;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+      
+  &:hover {
+    opacity: .8;
+  }
+}
+
+// advantages
+.get-advantage {
+    padding-top: 1.5rem;
+}
+.advantage-row {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 1rem 5rem;
+}
+.thin-h3 {
+    font-weight: 200;
+}
+.advantage-left, .advantage-right {
+    padding: 0rem 2rem;
+    position: relative;
+}
+.have-a-voice {
+    margin-left: -2rem;
+}
+.learn-more {
+    line-height: 0px;
+    text-decoration: none;
+}
+.gray-line {
+    border-right: 2px solid #e0e0e0;
+    top: 25%;
+    position: absolute;
+    bottom: 22%;
+    left: 1%;
+}
+.gray-line-2 {
+    border-right: 2px solid #e0e0e0;
+    top: 25%;
+    position: absolute;
+    bottom: 22%;
+    left: 1%;
+}
+
+.advantage-text {
+    line-height: 28px;
+    color: #888;
+    font-size: 14px;
+    margin-top: -12px;
+}
+// end advantages
+// one home loans box
+.bank-and-home-loans-box {
+    display: flex;
+    justify-content: center;
+}
+#one-loans-box {
+    width: 90%;
+}
+
+#one-loans-box th, #one-loans-box td {
+    padding: 10px;
+}
+
+#one-loans-box th {
+    background-color: $maingreen;
+    color: #fff;
+    font-weight: 300;
+    padding: 14px 0rem;
+    font-size: 18px;
+}
+
+#one-loans-box td {
+    background-color: $box-bg;
+    color: #888;
+    line-height: 34px;
+    font-size: 16px;
+    padding: 1rem 4rem;
+}
+.quote-image {
+    width: 60px;
+    rotate: 20deg;
+    opacity: .4;
+}

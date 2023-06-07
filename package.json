@@ -1,0 +1,28 @@
+{
+  "name": "radancy-project",
+  "version": "1.0.0",
+  "description": "test page",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steppinonland/radancy-project.git"
+  },
+  "keywords": [
+    "radancy",
+    "test",
+    "page"
+  ],
+  "author": "stephanie landgraf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steppinonland/radancy-project/issues"
+  },
+  "homepage": "https://github.com/steppinonland/radancy-project#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
