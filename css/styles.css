@@ -15,17 +15,35 @@ body {
 .heading {
   display: flex;
   flex-direction: column; }
+  @media screen and (max-width: 800px) {
+    .heading {
+      align-items: center; } }
 
 .logo-box {
-  padding: 1rem; }
+  padding: 3rem 0rem 2.5rem 1.5rem; }
+  @media screen and (max-width: 800px) {
+    .logo-box {
+      padding: 3rem 0rem; } }
+  .logo-box img {
+    max-width: 16rem; }
 
 .hero-image {
   max-width: 100%;
   display: flex;
   justify-content: center; }
+  @media screen and (max-width: 800px) {
+    .hero-image {
+      justify-content: left;
+      align-self: baseline;
+      width: 800px;
+      height: 400px; } }
 
 .fill-hero {
   width: 100%; }
+  @media screen and (max-width: 800px) {
+    .fill-hero {
+      object-fit: cover;
+      object-position: left; } }
 
 .top-section, .advantage {
   display: flex;
@@ -37,23 +55,38 @@ body {
 .header {
   font-weight: 300;
   font-size: 22px; }
+  @media screen and (max-width: 800px) {
+    .header {
+      font-size: 30px; } }
 
 .header-underline {
   width: 4%;
   border-color: #419460;
   border-style: solid; }
+  @media screen and (max-width: 800px) {
+    .header-underline {
+      width: 14%; } }
 
 .main-subtitle {
   line-height: 28px;
   color: #888;
   text-align: left;
   padding: 0rem 3rem; }
+  @media screen and (max-width: 800px) {
+    .main-subtitle {
+      font-size: 20px;
+      padding: 1rem 2rem;
+      line-height: 40px; } }
 
 .careers-button {
   background-color: #E97437;
   color: #fff;
   text-decoration: none;
   padding: 8px 16px; }
+  @media screen and (max-width: 800px) {
+    .careers-button {
+      font-size: 24px;
+      margin: 2rem 0rem; } }
   .careers-button:hover {
     opacity: .8; }
 
@@ -65,6 +98,10 @@ body {
   flex-direction: row;
   text-align: left;
   padding: 1rem 5rem; }
+  @media screen and (max-width: 800px) {
+    .advantage-row {
+      flex-direction: column;
+      padding: 1rem; } }
 
 .thin-h3 {
   font-weight: 200; }
@@ -75,24 +112,27 @@ body {
 
 .have-a-voice {
   margin-left: -2rem; }
+  @media screen and (max-width: 800px) {
+    .have-a-voice {
+      margin-left: 0; } }
 
 .learn-more {
   line-height: 0px;
   text-decoration: none; }
 
-.gray-line {
+.gray-line, .gray-line-2 {
   border-right: 2px solid #e0e0e0;
   top: 25%;
   position: absolute;
   bottom: 22%;
   left: 1%; }
+  @media screen and (max-width: 800px) {
+    .gray-line, .gray-line-2 {
+      display: none; } }
 
-.gray-line-2 {
-  border-right: 2px solid #e0e0e0;
-  top: 25%;
-  position: absolute;
-  bottom: 22%;
-  left: 1%; }
+@media screen and (max-width: 800px) {
+  .mobile-line, .mobile-line-2 {
+    border-bottom: 2px solid #e0e0e0; } }
 
 .advantage-text {
   line-height: 28px;
@@ -123,12 +163,18 @@ body {
   line-height: 34px;
   font-size: 16px;
   padding: 1rem 4rem; }
+  @media screen and (max-width: 800px) {
+    #one-loans-box td {
+      padding: 10px; } }
 
 .employees {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-top: 3rem; }
+  @media screen and (max-width: 800px) {
+    .employees {
+      flex-direction: column; } }
 
 .emp-photo {
   display: flex;
@@ -140,7 +186,19 @@ body {
   rotate: 11deg;
   opacity: .3;
   position: relative;
-  left: 32px; }
+  left: -55px;
+  bottom: -55px; }
+
+.quote-image-center {
+  width: 66px;
+  rotate: 11deg;
+  opacity: .3;
+  position: relative;
+  left: -150px;
+  bottom: -55px; }
+  @media screen and (max-width: 800px) {
+    .quote-image-center {
+      left: -18%; } }
 
 .emp-quote-section {
   position: relative;
@@ -159,9 +217,15 @@ body {
 
 .emp-quote-side {
   max-width: 180px; }
+  @media screen and (max-width: 800px) {
+    .emp-quote-side {
+      padding: 0rem 6rem; } }
 
 .emp-quote-center {
   max-width: 390px; }
+  @media screen and (max-width: 800px) {
+    .emp-quote-center {
+      padding: 0rem 4rem; } }
 
 .emp-name-title-location {
   max-width: 12rem;
