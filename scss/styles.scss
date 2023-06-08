@@ -147,8 +147,97 @@ body {
     font-size: 16px;
     padding: 1rem 4rem;
 }
+
+// Employees section
+.employees {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+.emp-photo {
+display: flex;
+justify-content: center;
+margin-left:1rem;
+}
+
 .quote-image {
-    width: 60px;
-    rotate: 20deg;
-    opacity: .4;
+    width: 66px;
+    rotate: 11deg;
+    opacity: .3;
+    position: relative;
+    left: 32px;
+}
+.emp-quote-section {
+    position: relative;
+    left: 12px;
+    bottom: 54px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.emp-quote-line {
+    font-style:italic;
+    color: #888;
+    line-height: 30px;
+    margin-top: -.25rem;
+}
+.emp-quote-side {
+    max-width: 180px;
+}
+.emp-quote-center {
+    max-width: 390px;
+}
+.emp-name-title-location {
+    max-width: 12rem;
+    margin-top: -10px;
+    line-height: 28px;
+    color: #4DB092;
+}
+
+// footer
+
+footer {
+    border-top: 1px solid $maingreen;
+    padding: 2rem;
+}
+.social-media-section a {
+    color: transparent;
+
+}
+
+.sm-square {
+    max-width: 30px;
+    &:hover {
+        opacity: .75;
+    } 
+}
+
+.disclaimer {
+    font-size: 10px;
+    color: #888;
+
+    a {
+        color: #787878;
+        &:hover {
+            opacity: .5;
+        } 
+    }
+}
+
+.privacy-sitemap-section {
+    margin-top: 1.5rem;
+    letter-spacing: 1px;;
+
+}
+
+.privacy-sitemap-section a {
+    text-decoration: none;
+    color: #787878;
+    font-size: 12px;
+
+    &:hover {
+        opacity: .5;
+    } 
 }
