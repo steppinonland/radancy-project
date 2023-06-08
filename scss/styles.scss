@@ -153,7 +153,7 @@ body {
     }
 }
 
-.mobile-line, .mobile-line-2 {
+.mobile-line {
     @media screen and (max-width: 800px) {
         border-bottom: 2px solid #e0e0e0;
     }

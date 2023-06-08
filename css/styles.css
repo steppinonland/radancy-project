@@ -131,7 +131,7 @@ body {
       display: none; } }
 
 @media screen and (max-width: 800px) {
-  .mobile-line, .mobile-line-2 {
+  .mobile-line {
     border-bottom: 2px solid #e0e0e0; } }
 
 .advantage-text {
